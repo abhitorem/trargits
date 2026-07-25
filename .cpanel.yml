@@ -4,3 +4,4 @@ deployment:
     - export DEPLOYPATH="$HOME/public_html"
     - /bin/mkdir -p "$DEPLOYPATH"
     - /bin/cp -R . "$DEPLOYPATH"
+    - /bin/find "$DEPLOYPATH" -maxdepth 1 -mindepth 1 ! -name '.git' ! -name '.cpanel.yml' -exec rm -rf {} +
