@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero">
+  <div>
+    <h1>People Strategy with Measurable Impact</h1>
+    <p>
+      Build resilient teams through structured hiring, leadership coaching, and culture transformation.
+    </p>
+    <a class="button" href="{{ url_for('main.services') }}">Explore Services</a>
+  </div>
+  <img src="{{ url_for('static', filename='images/hr-consulting-team.svg') }}" alt="HR consulting session" />
+</section>
+
+<section>
+  <h2>Component Tree</h2>
+  <div class="tree-grid">
+    {% for component in tree.components %}
+      <article class="card">
+        <h3><a href="{{ url_for('main.component_detail', slug=component.slug) }}">{{ component.label }}</a></h3>
+        <p>{{ component.summary }}</p>
+        {% if component.children %}
+          <ul>
+            {% for child in component.children %}
+              <li><a href="{{ url_for('main.component_detail', slug=child.slug) }}">{{ child.label }}</a></li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-label="Leadership coaching image">
+  <rect width="1920" height="1080" fill="#e9d8a6"/>
+  <rect x="180" y="160" width="1560" height="760" rx="38" fill="#ffffff"/>
+  <circle cx="520" cy="540" r="170" fill="#ca6702"/>
+  <circle cx="840" cy="540" r="170" fill="#bb3e03"/>
+  <circle cx="1160" cy="540" r="170" fill="#ae2012"/>
+  <circle cx="1480" cy="540" r="170" fill="#9b2226"/>
+  <text x="260" y="320" font-size="88" font-family="Georgia" fill="#001219">Leadership Coaching Tracks</text>
+</svg>

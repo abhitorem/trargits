@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="panel">
+  <h1>{{ node.label }}</h1>
+  <p>{{ node.summary }}</p>
+  {% if node.image %}
+    <img class="detail-image" src="{{ url_for('static', filename=node.image) }}" alt="{{ node.label }}" />
+  {% endif %}
+  {% if node.children %}
+    <h2>Sub-components</h2>
+    <ul>
+      {% for child in node.children %}
+        <li><a href="{{ url_for('main.component_detail', slug=child.slug) }}">{{ child.label }}</a></li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</section>
+{% endblock %}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-label="Talent growth visual">
+  <rect width="1920" height="1080" fill="#94d2bd"/>
+  <path d="M0 780 Q 400 620 860 760 T 1920 700 L 1920 1080 L 0 1080 Z" fill="#0a9396"/>
+  <path d="M0 860 Q 460 740 960 860 T 1920 810 L 1920 1080 L 0 1080 Z" fill="#005f73"/>
+  <text x="160" y="220" font-size="96" font-family="Georgia" fill="#001219">People Growth Programs</text>
+</svg>

@@ -1,0 +1,64 @@
+{
+  "siteName": "TRAR HR Consulting",
+  "tabs": [
+    {
+      "label": "Home",
+      "endpoint": "main.home"
+    },
+    {
+      "label": "About",
+      "endpoint": "main.about"
+    },
+    {
+      "label": "Services",
+      "endpoint": "main.services"
+    },
+    {
+      "label": "Contact",
+      "endpoint": "main.contact"
+    }
+  ],
+  "components": [
+    {
+      "slug": "talent-acquisition",
+      "label": "Talent Acquisition",
+      "summary": "End-to-end hiring strategy, process design, and interview operations.",
+      "image": "images/hr-consulting-team.svg",
+      "children": [
+        {
+          "slug": "workforce-planning",
+          "label": "Workforce Planning",
+          "summary": "Role mapping, succession planning, and multi-quarter hiring projections.",
+          "children": []
+        },
+        {
+          "slug": "executive-search",
+          "label": "Executive Search",
+          "summary": "Leadership talent sourcing for critical growth and transformation roles.",
+          "children": []
+        }
+      ]
+    },
+    {
+      "slug": "learning-development",
+      "label": "Learning and Development",
+      "summary": "Capability frameworks, training programs, and manager enablement.",
+      "image": "images/leadership-coaching.svg",
+      "children": [
+        {
+          "slug": "leadership-coaching",
+          "label": "Leadership Coaching",
+          "summary": "Coaching pathways that align people outcomes with business strategy.",
+          "children": []
+        }
+      ]
+    },
+    {
+      "slug": "culture-transformation",
+      "label": "Culture Transformation",
+      "summary": "Org design, engagement diagnostics, and change communication programs.",
+      "image": "images/talent-growth.svg",
+      "children": []
+    }
+  ]
+}

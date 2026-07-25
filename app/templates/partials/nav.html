@@ -1,0 +1,7 @@
+<nav aria-label="Main navigation">
+  <ul class="nav-list">
+    {% for tab in tabs %}
+      <li><a href="{{ url_for(tab.endpoint) }}">{{ tab.label }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>
