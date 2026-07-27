@@ -1,4 +1,4 @@
-# TRAR HR Consulting Web Application
+# TRAR GLOBAL IT SERVICES PVT LTD Web Application
 
 Flask-based dynamic web application with a tree-structured service component model, designed for deployment on GoDaddy cPanel using Passenger WSGI.
 
